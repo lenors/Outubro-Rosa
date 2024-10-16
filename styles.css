@@ -11,7 +11,6 @@
 header {
   display: flex;
   align-items: center;
-  border: solid;
   justify-content: space-between;
   height: 19.43vh;
   background-color: #ff69b4;
@@ -25,7 +24,6 @@ header section img {
   width: 18vw;
   display: flex;
   justify-content: space-between;
-  border: solid;
   align-items: center;
   margin-left: 7vw;
 }
@@ -38,7 +36,6 @@ header section img {
 section nav ul {
   margin-right: 14vh;
   display: flex;
-  border: solid;
   width: 41.66vw;
   justify-content: space-between;
   font-size: 28px;
@@ -56,12 +53,10 @@ section nav ul a {
   align-items: center;
   justify-content: space-evenly;
   height: 50.51vh;
-  border: solid red;
   background-color: #ffd9ec;
 }
 #container-1 h2 {
   font-size: 25px;
-  border: solid red;
   font-weight: 400;
   width: 30vw;
 }
@@ -82,7 +77,6 @@ section nav ul a {
   height: 24vh;
 }
 #container-2 h2 {
-  border: solid;
   font-size: 3.7vh;
   width: 40.75vw;
   font-weight: 300;
@@ -95,7 +89,6 @@ section nav ul a {
   justify-content: space-around;
   background-color: #ffd9ec;
   height: 63vh;
-  border: solid salmon;
 }
 #container-3 img {
   width: 23.02vw;
