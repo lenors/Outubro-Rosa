@@ -60,6 +60,15 @@ section nav ul a {
   font-weight: 400;
   width: 30vw;
 }
+@media screen {
+  #container-1 h2 {
+    max-width: 1280px;
+    font-size: 20px;
+    border: solid black;
+    width: 35vw;
+    height: 30vh;
+  }
+}
 #container-1 img {
   width: 22vw;
   height: 48vh;

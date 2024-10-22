@@ -4,11 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="menu.css" />
+    <script src="script.js"></script>
     <title>Outubro Rosa</title>
   </head>
 
   <body>
     <header>
+      <section id="menu-hamburger">
+        <div id="menu">
+          <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+          </div>
+          <nav class="nav" id="nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="menu-bg" id="menu-bg"></div>
+      </section>
       <section id="Outubro">
         <img src="Assets/header-img.png" alt="Imagem Outubro Rosa" />
         <h1>OUTUBRO ROSA</h1>
@@ -53,9 +74,9 @@
     </main>
     <footer>
       <section id="Footer">
-        <img src="Assets/linkd.png" alt="Linkldn">
-        <img src="Assets/insta.png" alt="insta">
-        <img src="Assets/git.png" alt="git">
+        <img src="Assets/linkd.png" alt="Linkldn" />
+        <img src="Assets/insta.png" alt="insta" />
+        <img src="Assets/git.png" alt="git" />
       </section>
       <section>
         <p>Leno Rafael</p>
@@ -63,7 +84,7 @@
         <p>marina</p>
         <p>Layout criado para fins de estudos na escola vai na web</p>
       </section>
-      <img src="Assets/rosa.png" alt="Outubro Rosa">
+      <img src="Assets/rosa.png" alt="Outubro Rosa" />
     </footer>
   </body>
 </html>
